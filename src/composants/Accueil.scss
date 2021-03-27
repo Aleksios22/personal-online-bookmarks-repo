@@ -1,0 +1,31 @@
+.Accueil {
+  margin: 50px auto;
+  text-align: center;
+  
+  .logo {
+    display: block;
+    height: 170px;
+    color: #ea9100;
+    background: url(../images/signets-logo.png);
+    background-size: auto 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 2.4em;
+    
+    span {
+      font-size: 0.5em;
+      font-weight: 400;
+    }
+  }
+  
+  .amorce {
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+  .connexion-etiquette {
+    font-size: 1.1rem;
+  }
+}

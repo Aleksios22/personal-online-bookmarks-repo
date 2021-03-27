@@ -1,0 +1,25 @@
+.ListeDossiers {
+  display: flex;
+  list-style: none;
+  padding: 10px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .msgAucunDossier {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    color: #fff;
+    background-color: darkcyan;
+    font-size: 1.5em;
+    p {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 5em;
+    }
+  }
+}
